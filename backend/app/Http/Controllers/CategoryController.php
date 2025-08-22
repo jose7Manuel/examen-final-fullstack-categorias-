@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-   use App\Models\Category;
+ use App\Models\Category;
 use Illuminate\Http\Request;
 
 public function store(Request $request)
